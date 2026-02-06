@@ -20,7 +20,7 @@ while True:
         print('Tie')
     elif (
         (player == 'r' and computer == 's') or
-        (player == 'p' and computer == 's') or
+        (player == 's' and computer == 'p') or
             (player == 'p' and computer == 'r')):
         print('You win!')
     else:
